@@ -5,6 +5,8 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fiel
     padding: 0;
 }
 
+
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -39,8 +41,12 @@ html, body {
 body {
     margin: 0;
     padding: 0;
-    background: #000;
     font-family: "Helvetica Neue", Helvetica, Arial;
+    background: url(https://www.tripigator.com/blog/wp-content/uploads/2016/01/maldives-competition.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 div#shim {
@@ -58,6 +64,9 @@ div#content {
     clear: both;
     position: relative;
     top: -140px;
+    background: black;
+    background: rgba(0,0,0,0.6);
+    border-radius: 15px;
 
     /* IE4ever Hack: Hide from IE4 **/
     position: static;
@@ -100,7 +109,7 @@ h1 cufon {
 
 h3 {
     font-size: 24px;
-    color: #333;
+    color: darkgray;
     float: left;
     margin-right: 15px;
 }
